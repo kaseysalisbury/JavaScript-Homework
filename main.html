@@ -5,25 +5,25 @@
   console.log(x);
   var y = 3;
   console.log(y);
-  var z = x * y;
+  var z = x * y; /* 15 */
   console.log(z);
   var a = 2;
   console.log(a);
   var b = 7;
   console.log(b);
-  var c = a + b;
+  var c = a + b; /* 9 */
   console.log(c);
   var d = 8;
   console.log(d);
   var e = 4;
   console.log(e);
-  var f = d - e;
+  var f = d - e; /* 4 */
   console.log(f);
   var g = 27;
   console.log(g);
   var h = 9;
   console.log(h);
-  var i = g / h;
+  var i = g / h; /* 3 */
   console.log(i);
 
   var first = 'Kasey ';
@@ -32,14 +32,22 @@
   console.log(middle);
   var last = 'Salisbury';
   console.log(last);
-  var name = first + middle + last;
+  var name = first + middle + last; /* Kasey Ciana Salisbury */
   console.log(name);
-  var statement = 'my name is ' + name;
+  var statement = 'my name is ' + name; /* my name is Kasey Ciana Salisbury */
   console.log(statement);
-  var greeting = 'Hi, ' + statement
+  var greeting = 'Hi, ' + statement /* Hi, my name is Kasey Ciana Salisbury */
   console.log(greeting);
 
+  function Square(number) {
+    var Squared = number * number;
+    alert(Squared);
+  }
 
+  function FullName(firstname, middlename, lastname) {
+  var MyName = firstname + middlename + lastname;
+  alert(MyName);
+}
   </script>
 </head>
 </html>
